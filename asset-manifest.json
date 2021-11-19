@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/coinster/static/css/main.94edee6c.chunk.css",
+    "main.js": "/coinster/static/js/main.be8519f1.chunk.js",
+    "main.js.map": "/coinster/static/js/main.be8519f1.chunk.js.map",
+    "runtime-main.js": "/coinster/static/js/runtime-main.7df4ea3e.js",
+    "runtime-main.js.map": "/coinster/static/js/runtime-main.7df4ea3e.js.map",
+    "static/js/2.2a3bf80e.chunk.js": "/coinster/static/js/2.2a3bf80e.chunk.js",
+    "static/js/2.2a3bf80e.chunk.js.map": "/coinster/static/js/2.2a3bf80e.chunk.js.map",
+    "index.html": "/coinster/index.html",
+    "static/css/main.94edee6c.chunk.css.map": "/coinster/static/css/main.94edee6c.chunk.css.map",
+    "static/js/2.2a3bf80e.chunk.js.LICENSE.txt": "/coinster/static/js/2.2a3bf80e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7df4ea3e.js",
+    "static/js/2.2a3bf80e.chunk.js",
+    "static/css/main.94edee6c.chunk.css",
+    "static/js/main.be8519f1.chunk.js"
+  ]
+}
