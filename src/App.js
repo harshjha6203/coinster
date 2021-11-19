@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import LoadCrypto from './Pages/LoadCrypto';
+import LoadExchange from './Pages/LoadExchange';
+import Development from './Pages/Development';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <> 
+            <Routes>
+              <Route path='/' element={<LoadCrypto/>}/>
+              <Route path='/exchanges' element={<LoadExchange/>}/>
+              <Route path='/development' element={<Development/>}/>
+            </Routes>
+        </>
+    )
 }
 
-export default App;
+export default App
